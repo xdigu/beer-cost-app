@@ -13,5 +13,5 @@ export default {
     HOME_question: "Which one is cheaper?",
     HOME_buttonText: "Calculate",
     HOME_result: "is cheapest!",
-    HOME_resutSame: "The price os both is the same."
+    HOME_resutSame: "The price of both is the same."
 }

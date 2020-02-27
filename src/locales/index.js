@@ -4,12 +4,15 @@ import I18n from 'i18n-js'
 
 import en from './en-US'
 import pt from './pt-BR'
+import es from './es-ES'
 
 const normalizeTranslate = {
     'en_US': 'en_US',
     'pt_BR': 'pt_BR',
     'en': 'en_US',
     'pt_US': 'pt_BR',
+    'es-US': 'es-ES',
+    'es-ES': 'es-ES'
 }
 
 const getLanguageByDevice = () => {
@@ -21,6 +24,7 @@ const getLanguageByDevice = () => {
 I18n.translations = {
     'en_US': en,
     'pt_BR': pt,
+    'es-ES': es
 }
 
 const setLanguageToI18n = () => {
