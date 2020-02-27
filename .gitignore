@@ -60,3 +60,6 @@ buck-out/
 
 # Keys
 /src/constants/oneSignal.js
+
+# builds
+android/app/release/**/*
