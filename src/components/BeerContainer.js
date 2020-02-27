@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react'
+import React from 'react'
 import { Text, View, TextInput } from 'react-native'
 import { TextInputMask } from 'react-native-masked-text'
 
@@ -14,7 +14,7 @@ export default function BeerContainer({
   onChangeCost,
   valueCost
 }) {
-  const textInputStyle = { height: 30, width: 130, textAlign: 'center', color: 'dimgrey' }
+  const textInputStyle = { height: 40, width: 130, textAlign: 'center', color: 'dimgrey' }
   const maskCostOption = { precision: 2, separator: '.', delimiter: ' ', unit: '', suffixUnit: '' }
 
   return (
