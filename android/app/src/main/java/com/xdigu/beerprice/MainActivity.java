@@ -1,4 +1,4 @@
-package com.beercost;
+package com.xdigu.beerprice;
 
 import com.facebook.react.ReactActivity;
 
