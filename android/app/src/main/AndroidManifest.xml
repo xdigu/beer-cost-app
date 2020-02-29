@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.beercost">
+  package="com.xdigu.beerprice">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
